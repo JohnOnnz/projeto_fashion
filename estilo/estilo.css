@@ -1,0 +1,191 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+:root{ /* declarando variasveis */
+    --azulEscuro: #081a24;
+    --azulClaro: #2d545c;
+    --cinzaClaro: #c7c7c7;
+    --cinzaEscuro:#333333;
+    --azulMedio: #003d52;
+    --largura: 1024px;
+
+}
+
+body{
+    font-family: 'Bricolage Grotesque', sans-serif;
+}
+.cabecalho{
+    background-color: var(--azulEscuro);
+    width: var(--largura) ;
+    margin: auto;
+    padding: 8px 80px;
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+}
+
+/* formatando o header */
+
+.cabecalho ul{
+    list-style: none;
+}
+.cabecalho li{
+    display: inline-block;
+}
+.cabecalho a{
+    display: inline-block;
+    color: var(--azulClaro);
+    text-decoration: none;
+    margin-left: 58px;
+}
+.cabecalho :hover{
+    color: #c7c9c8;
+    text-transform: var(--cinzaClaro) 0.5s;
+}
+
+/* formatando .secao_imagem */
+.secao_imagem {
+    width: var(--largura);
+    margin: auto;
+    
+}
+
+/* formatando secao_sobre */
+
+.secao_sobre{
+    width: var(--largura);
+    margin: auto;
+    padding: 80px;
+    text-align: center;
+}
+.secao_sobre h2{
+    font-size: 32px;
+    font-weight: 600;
+    color: var(--azulEscuro);
+    margin-bottom: 16px;
+}
+.secao_sobre p{
+    color: var(--azulEscuro);
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+/* formatando sessao portfolio */
+
+
+.secao-portfolio{
+
+    width: var(--largura);
+    margin: auto;
+    padding: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.secao-portfolio article{
+    width: 32%;
+    text-align: center;
+
+}
+
+
+.secao-portfolio img{
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+.secao-portfolio h3{
+    text-transform: uppercase;
+    font-weight: 500;
+    color: var(--azulEscuro);
+    margin-bottom: 8px;
+}
+.secao-portfolio{
+    color: var(--azulClaro);
+
+}
+
+/* formatando sessao contato */
+
+.secao_contato{
+    width: var(--largura);
+    margin: auto;
+    padding: 80px;
+    background: url(../img/bg_detalhe.png);
+    background-color: var(--azulMedio);;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    
+}
+.secao_contato h1{
+    width: 80%;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 56px;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.secao_contato p{
+    width: 60%;
+    font-size: 16px;
+    color: white;
+    line-height: 1.7;
+    text-align: left;
+}
+
+
+/* formatando o call boton */
+
+.call_boton{
+    width: var(--largura);
+    margin:auto;
+    padding: 80px;
+    color: var(--azulEscuro);
+    font-size: 24px;
+    text-align: center;
+}
+ /* formatando endereco */
+ 
+ /* .endereco{
+    width: var(--largura);
+    margin: auto;
+    padding: 80px;
+    text-align: center;
+    color: var(--azulMedio);
+ }
+ .endereco p{
+    font-size: 24px;
+    font-weight: 300;
+ }
+ .endereco p:first-child{
+    text-transform: uppercase;
+    font-weight: 600;
+ } ola */
+
+ /* formatando mapa */
+
+ .mapa{
+    width: var(--largura);
+    margin: auto;
+ }
+
+
+.rodape{
+    width: var(--largura);
+    margin:auto;
+    padding: 16px;
+    margin-top: 40px;
+    background-color: var(--azulEscuro);
+    text-align: center;
+}
+.rodape span{
+    font-size: 16px;
+    color:var(--azulClaro) ;
+}
+.rodape a{
+    display: block;
+    text-decoration: none;
+    color: white;
+}
